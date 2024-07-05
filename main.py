@@ -14,7 +14,7 @@ model = tf.keras.models.load_model('Projet_3721.keras')
 
 def main():
     st.markdown("<h1 style='text-align: center;'>Bienvenue à notre Application de Reconnaissance Vocale des chiffres de 0 à 9</h1>", unsafe_allow_html=True)
-    st.write("Enregistrez un audio de vous prononçant un chiffre compris entre 0 et 9 et nous vous dirons de quel chiffre il s'agit.")
+    st.write("Enregistrez un audio de vous prononçant un chiffre compris entre 0 et 9 et nous vous dirons de quel chiffre il s'agit...")
 
     # Enregistrement audio via Streamlit
     audio_file = st.file_uploader("Téléchargez un fichier audio", type=["wav"])
