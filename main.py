@@ -17,7 +17,7 @@ def main():
     st.write("Enregistrez un audio de vous prononçant un chiffre compris entre 0 et 9 et nous vous dirons de quel chiffre il s'agit.")
 
     # Enregistrement audio via Streamlit
-    audio_file = st.file_uploader("Téléchargez un fichier audio", type=["wav", "m4a", "mp4"])
+    audio_file = st.file_uploader("Téléchargez un fichier audio", type=["wav"])
 
     if audio_file is not None:
         # Lire le fichier audio téléchargé
